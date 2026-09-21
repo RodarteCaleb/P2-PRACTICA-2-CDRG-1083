@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- HTML5 -->
+
+<html lang="en">
+<!-- Inicio del documento -->
+
+<head>
+    <!-- Configuración de la página -->
+
+    <meta charset="UTF-8">
+    <!-- Codificación de caracteres -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adaptación a diferentes pantallas -->
+
+    <title>Tablas en HTML</title>
+    <!-- Título de la pestaña -->
+
+</head>
+
+<body>
+    <!-- Contenido visible -->
+
+    <h1>Tipos de tablas</h1>
+    <!-- Título principal -->
+
+    <p>El objetivo fundamental de las tablas en HTML sera
+        mostrar una serie de datos en forma ordenada,
+        organizado en filas y columnas
+    </p>
+    <!-- Explica el uso de las tablas -->
+
+    <p>Para la creacion de una tabla intervienen diferentes elementos:</p>
+    <!-- Introducción a los elementos de una tabla -->
+
+    <dl>
+        <!-- Lista de definiciones -->
+
+        <dt>Table</dt>
+        <!-- Define el término -->
+
+        <dd>
+            Es la marca de comienzo de la tabla. Este elemento requiere
+            la marca de cierre.
+        </dd>
+        <!-- Definición de table -->
+
+        <dt>Tr</dt>
+        <!-- Define el término -->
+
+        <dd>
+            Es la marca de comienzo de una fila. Esta marca debe estar
+            dentro del elemento table
+        </dd>
+        <!-- Definición de tr -->
+
+        <dt>Td</dt>
+        <!-- Define el término -->
+
+        <dd>
+            Es la marca de comeinzo de una celda. Esta marca debe estar
+            dentro del elemento tr
+        </dd>
+        <!-- Definición de td -->
+
+    </dl>
+
+    <h2>Ejemplo</h2>
+    <!-- Subtítulo -->
+
+    <table border="1">
+        <!-- Crea una tabla -->
+
+        <tr>
+            <!-- Fila -->
+
+            <td>Ciudad de Mexico</td>
+            <!-- Celda -->
+
+            <td>9.2 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+        <tr>
+            <td>Guadalajara</td>
+            <!-- Celda -->
+
+            <td>4.1 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+        <tr>
+            <td>Monterrey</td>
+            <!-- Celda -->
+
+            <td>3.9 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+    </table>
+
+    <h2>Tabla con encabezado</h2>
+    <!-- Subtítulo -->
+
+    <p>La caracteristicas de esta tabla es que se le agrega a las celdas 
+        el encabezado correspondiente, esto solo aplicaria a la primera
+        fila de la tabla con la etiqueta <em>th</em>, las demas filas
+        usarian la etiqueta <em>td</em> con normalidad.
+    </p>
+    <!-- Explica el uso de th -->
+
+    <table border="1">
+        <!-- Crea una tabla -->
+
+        <tr>
+            <th>Ciudad</th>
+            <!-- Encabezado -->
+
+            <th>Cantidad de habitantes</th>
+            <!-- Encabezado -->
+
+        </tr>
+
+        <tr>
+            <td>Ciudad de Mexico</td>
+            <!-- Celda -->
+
+            <td>9.2 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+        <tr>
+            <td>Guadalajara</td>
+            <!-- Celda -->
+
+            <td>4.1 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+        <tr>
+            <td>Monterrey</td>
+            <!-- Celda -->
+
+            <td>3.9 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+    </table>
+
+    <h2>Tabla con titulo</h2>
+    <!-- Subtítulo -->
+
+    <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption 
+        inmediatamente despues de abrir la etiqueta <em>table</em>.
+    </p>
+    <!-- Explica el uso de caption -->
+
+    <table border="1">
+        <!-- Crea una tabla -->
+
+        <caption>Poblacion de las ciudades mas concurridas de Mexico</caption>
+        <!-- Título de la tabla -->
+
+        <tr>
+            <th>Ciudad</th>
+            <!-- Encabezado -->
+
+            <th>Cantidad de habitantes</th>
+            <!-- Encabezado -->
+
+        </tr>
+
+        <tr>
+            <td>Ciudad de Mexico</td>
+            <!-- Celda -->
+
+            <td>9.2 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+        <tr>
+            <td>Guadalajara</td>
+            <!-- Celda -->
+
+            <td>4.1 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+        <tr>
+            <td>Monterrey</td>
+            <!-- Celda -->
+
+            <td>3.9 millones</td>
+            <!-- Celda -->
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
+<!-- Fin del documento -->
